@@ -4,6 +4,7 @@ import { Jumbotron } from "./migration";
 import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 import axios from "axios";
+import projects from "../../projects";
 
 const dummyProject = {
   name: null,
@@ -42,9 +43,24 @@ const Project = ({ heading, username, length, specfic }) => {
       } catch (error) {
         console.error(error.message);
       }
+  
+      repoList[0].homepage = projects[0].demo
+      repoList[1].homepage = projects[1].demo
+      repoList[2].homepage = projects[2].demo
+      // for (let i = 0; i < repoList.length; i++) {
+      //   for (let j = 0; j < projects.length; j++) {
+      //     if (i === j) {
+      //       repoList.map(v => ({ ...v, demo: projects[i].demo }))
+      //     }
+      //   }
+      //   console.log(repoList)
+      // }
+
       // setting projectArray
       // TODO: remove the duplication.
+      // sets array (projectsArray) to pass into projectcard inside ternary conditional statement below//
       setProjectsArray(repoList);
+
     } catch (error) {
       console.error(error.message);
     }
