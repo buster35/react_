@@ -1,6 +1,5 @@
 import React from "react";
-
-import axios from "axios";
+import profilePic from "../../assets/profile-pic.jpg"
 import { Jumbotron } from "./migration";
 
 const pictureLinkRegex = new RegExp(
@@ -37,15 +36,15 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
     <Jumbotron id="aboutme" className="m-0">
       <div className="container row">
         <div className="col-5 d-none d-lg-block align-self-center">
-          {showPic && (
+          
             <img
               className="border border-secondary rounded-circle"
-              src={profilePicUrl}
+              src={profilePic}
               alt="profilepicture"
               width={imgSize}
               height={imgSize}
             />
-          )}
+          
         </div>
         <div className={`col-lg-${showPic ? "7" : "12"}`}>
           <h2 className="display-4 mb-5 text-center">{heading}</h2>

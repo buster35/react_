@@ -56,7 +56,7 @@ const CardButtons = ({ svn_url, homepage }) => {
         href={homepage}
         className="btn btn-outline-secondary mx-2"
       >
-        <i className="fab fa-github" /> Demo Project
+        <i className="fab fa-github" /> Project Demo
       </a>
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mx-2">
         <i className="fab fa-github" /> Repo

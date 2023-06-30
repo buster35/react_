@@ -1,4 +1,4 @@
-import profilePic from "../editable-stuff/profile-pic.jpg";
+import profilePic from "../assets/profile-pic.jpg";
 const resume = require("../editable-stuff/zg-resume.pdf");
 
 // Navigation Bar SECTION
@@ -92,7 +92,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    {
+      name: "Python",
+      value: (
+        <div className="htmlLogo">
+          <i className="devicon-html5-plain-wordmark colored"></i>
+        </div>
+      ),
+    },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },

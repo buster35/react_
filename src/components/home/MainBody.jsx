@@ -10,7 +10,8 @@ const MainBody = React.forwardRef(
         fluid
         id="home"
         style={{
-          background: `linear-gradient(136deg,${gradient})`,
+          backgroundColor: "#9599E2",
+          backgroundImage: "linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)",
           backgroundSize: "1200% 1200%",
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
@@ -38,14 +39,7 @@ const MainBody = React.forwardRef(
               </a>
             ))}
           </div>
-          <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
-            role="button"
-            aria-label="Learn more about me"
-          >
-            More about me
-          </a>
+            Scroll for more
         </Container>
       </Jumbotron>
     );
