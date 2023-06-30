@@ -1,8 +1,8 @@
 {
-  "name": "developers-portfolio",
+  
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "http://hashirshoaeb.com/home",
-  "version": "2.0.0",
+  "homepage": "https://zg-portfolio.herokuapp.com/",
+  "version": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -32,8 +32,8 @@
     "custom-deploy": "node pages.js"
   },
   "engines": {
-    "npm": "^8.11.0",
-    "node": "^18.13.0"
+    "npm": ">=8.11.0",
+    "node": ">=18.13.0"
   },
   "eslintConfig": {
     "extends": [

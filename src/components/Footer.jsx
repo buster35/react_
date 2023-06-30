@@ -18,6 +18,14 @@ const Footer = (props) => {
           </span>
         </a>{" "}
         using <i className="fab fa-react" />
+        <p>Customized by{" "}<a
+          rel="noopener"
+          href="https://github.com/buster35"
+          aria-label="My GitHub"
+        > <span className="badge bg-dark">
+            Zach Gilbert
+          </span>
+        </a>{" "}</p>
         <p>
           <small className="text-muted">
             Project code is open source. Feel free to fork and make your own
