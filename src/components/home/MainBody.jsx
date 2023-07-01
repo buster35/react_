@@ -1,31 +1,31 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
-  ({ gradient, title, message, icons }, ref) => {
+  ({ gradient, title, message, message2, icons }, ref) => {
     return (
       <Jumbotron
         fluid
         id="home"
         style={{
-          backgroundColor: "#9599E2",
-          backgroundImage: "linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)",
+          backgroundImage: "linear-gradient( 136deg, #4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1 )",
           backgroundSize: "1200% 1200%",
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
-        <div id="stars"></div>
+        <div></div>
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
             {title}
           </h1>
-          <Typist>
+          
             <div className="lead typist">
               {message}
+              <br/>
+              {message2}
             </div>
-          </Typist>
+          
           <div className="p-5">
             {icons.map((icon, index) => (
               <a

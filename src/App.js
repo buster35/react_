@@ -20,8 +20,6 @@ import Skills from "./components/home/Skills";
 import GetInTouch from "./components/home/GetInTouch.jsx";
 import Leadership from "./components/home/Leadership.jsx";
 
-import Experience from "./components/home/Experience";
-
 const Home = React.forwardRef((props, ref) => {
   return (
     <>
@@ -29,6 +27,7 @@ const Home = React.forwardRef((props, ref) => {
         gradient={mainBody.gradientColors}
         title={`${mainBody.firstName} ${mainBody.middleName} ${mainBody.lastName}`}
         message={mainBody.message}
+        message2={mainBody.message2}
         icons={mainBody.icons}
         ref={ref}
       />
