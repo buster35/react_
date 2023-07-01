@@ -87,7 +87,6 @@ const leadership = {
   },
 };
 
-//TODO:
 // SKILLS SECTION
 const skills = {
   show: true,

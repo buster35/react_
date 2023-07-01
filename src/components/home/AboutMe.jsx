@@ -2,9 +2,9 @@ import React from "react";
 import profilePic from "../../assets/profile-pic.jpg"
 import { Jumbotron } from "./migration";
 
-const pictureLinkRegex = new RegExp(
-  /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
-);
+// const pictureLinkRegex = new RegExp(
+//   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
+// );
 
 const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");

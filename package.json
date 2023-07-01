@@ -1,7 +1,7 @@
 {
   
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://zg-portfolio.herokuapp.com/",
+  "homepage": "",
   "version": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
