@@ -1,5 +1,4 @@
 import profilePic from "../assets/profile-pic.jpg";
-const resume = require("../editable-stuff/zg-resume.pdf");
 
 // Navigation Bar SECTION
 const navBar = {
@@ -47,7 +46,6 @@ const about = {
   imageSize: 375,
   message:
     "I have a fundamental understanding of relevant front & back-end technologies, and I envision my programming repertoire growing as I continue my quest to learn more languages. I truly admire the wide array of computing languages and the practical uses each serve to accomplish, both niche and mainstream.",
-  resume: resume,
 };
 
 // PROJECTS SECTION
