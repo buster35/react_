@@ -47,6 +47,7 @@ const MainBody = React.forwardRef(
             </a>
             <a target="_blank" rel="noopener noreferrer" href="https://www.credly.com/badges/031a3fdc-66c7-48a1-be1e-51fb6b92a708">
               <img src={badge2} alt="comptia security+ badge" style={{width: "120px", height: "auto"}}/>
+              <figcaption>CompTIA</figcaption>
             </a>
           </div>
           <br />
