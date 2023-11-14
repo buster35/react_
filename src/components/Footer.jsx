@@ -23,7 +23,7 @@ const Footer = (props) => {
           href="https://github.com/buster35"
           aria-label="My GitHub"
         > <span className="badge bg-dark">
-            Zach Gilbert
+            Zach
           </span>
         </a>{" "}</p>
         <p>

@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Jumbotron } from "./migration";
 import badge from "../../assets/FSF-badge.png"
+import badge2 from "../../assets/SecurityPlus Logo Certified CE.png"
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, message2, icons }, ref) => {
@@ -43,6 +44,9 @@ const MainBody = React.forwardRef(
           <div className="badge">
             <a target="_blank" rel="noopener noreferrer" href="https://www.credly.com/badges/59fa3498-9012-42db-bd50-e8e7fa2cf684/public_url">
               <img src={badge} alt="university of minnesota web dev badge" style={{width: "120px", height: "auto"}}/>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.credly.com/badges/031a3fdc-66c7-48a1-be1e-51fb6b92a708">
+              <img src={badge2} alt="comptia security+ badge" style={{width: "120px", height: "auto"}}/>
             </a>
           </div>
           <br />

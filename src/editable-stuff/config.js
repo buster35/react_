@@ -1,5 +1,5 @@
 import profilePic from "../assets/profile-pic.jpg";
-const resume = require("../editable-stuff/zg-resume.pdf");
+const resume = require("../editable-stuff/zg_resume_0923.pdf");
 
 // Navigation Bar SECTION
 const navBar = {
